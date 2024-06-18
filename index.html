@@ -5,23 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
 </head>
 <body>
 <header></header>
 
 <main>
-    <section class="calculator">
+    <section class="calculator"> 
+        <section class="h1">
+             <h1>Temprature Converter</h1>
+        </section> 
        <section class="celsiustofarenheit" id="celsiustofarenheit">
-          <div class="celsiuswrapper">
-             <h2 class="h2celsius">Celsius</h2>
-            <input type="number" class="celsius" cols="30" rows="10"></input>
+       
+       
+        
+        <div class="celsiuswrapper">
+             <h2 style="margin-left: 13px;">Celsius</h2>
+            <input type="number" class="celsius" id="celsius" cols="30" rows="10"></input>
           </div>
           <div class="farenheitwrapper">
-             <input type="number" class="farenheit" id="farenheit">
+            <h2 style="margin-left: 13px;">Farenheit</h2>
+             <input type="number" class="farenheit" id="farenheit" cols="30" rows="10"></input>
           </div> 
            
        </section>
        <section class="rumus">
+        <h2 style="margin-left: 13px; ">Rumus</h2>
+        <input type="text" class="result" id="result" cols="30" rows="10"> </input>
+       </section>
+       <section class="button">
+       <button class="convert">Convert</button>
+       <button class="reset">Reset</button>
+       <button class="reverse">Reverse</button>
 
        </section>
     </section>
